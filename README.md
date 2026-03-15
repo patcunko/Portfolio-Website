@@ -1,6 +1,6 @@
 # Patrik Cunko — Portfolio Website
 
-**Live site:** https://portfolio-website-five-theta-61.vercel.app/
+**Live site:** https://patrikcunko.com
 
 A personal portfolio website showcasing my projects, skills, and professional experience. Built with modern web technologies and a focus on performance, accessibility, and clean design.
 
