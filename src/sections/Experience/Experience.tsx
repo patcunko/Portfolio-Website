@@ -9,7 +9,7 @@ export function Experience() {
   return (
     <section id="experience" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Experience" subtitle="My professional journey" />
+        <SectionHeading title="Experience" />
         <motion.div
           ref={ref as React.RefObject<HTMLDivElement>}
           initial={{ opacity: 0, y: 24 }}

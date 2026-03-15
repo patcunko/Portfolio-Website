@@ -11,7 +11,7 @@ export function Contact() {
   return (
     <section id="contact" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Get In Touch" subtitle="I'd love to hear from you" />
+        <SectionHeading title="Get In Touch" />
         <motion.div
           ref={ref as React.RefObject<HTMLDivElement>}
           initial={{ opacity: 0, y: 24 }}

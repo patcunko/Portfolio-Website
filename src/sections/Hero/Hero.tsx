@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Download, FolderOpen } from 'lucide-react'
 import { personal } from '@/data/personal'
+import { useTypewriter } from '@/hooks/useTypewriter'
 
 export function Hero() {
+  const displayedName = useTypewriter(personal.name)
+
   return (
     <section
       id="hero"
@@ -18,7 +21,8 @@ export function Hero() {
           Hi, I'm
         </p>
         <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl dark:text-white">
-          {personal.name}
+          {displayedName}
+          <span className="animate-pulse"> |</span>
         </h1>
         <h2 className="mt-4 text-2xl font-semibold text-gray-600 sm:text-3xl dark:text-gray-300">
           {personal.title}

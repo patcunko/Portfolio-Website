@@ -21,7 +21,7 @@ export function Skills() {
   return (
     <section id="skills" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Skills" subtitle="Technologies I work with" />
+        <SectionHeading title="Skills" />
         <motion.div
           ref={ref as React.RefObject<HTMLDivElement>}
           initial={{ opacity: 0, y: 24 }}

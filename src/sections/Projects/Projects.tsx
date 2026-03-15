@@ -24,7 +24,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Projects" subtitle="Things I've built" />
+        <SectionHeading title="Projects" />
 
         {/* Filters */}
         <div className="mb-10 flex flex-wrap justify-center gap-2">
