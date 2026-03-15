@@ -22,7 +22,7 @@ export function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-sm dark:border-gray-800 dark:bg-gray-950/80">
-      <nav className="mx-auto grid h-16 max-w-6xl grid-cols-3 items-center px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto grid h-16 max-w-6xl grid-cols-[auto_1fr_auto] items-center px-4 sm:px-6 lg:px-8">
         {/* Left — name */}
         <a
           href="#hero"
