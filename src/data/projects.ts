@@ -9,7 +9,7 @@ export const projects: Project[] = [
     longDescription:
       'A fully responsive portfolio website showcasing my projects and experience. Built with modern tooling including Vite, React Router, and Framer Motion for animations.',
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    liveUrl: 'https://yoursite.com',
+    liveUrl: 'https://portfolio-website-five-theta-61.vercel.app/',
     githubUrl: 'https://github.com/yourusername/portfolio',
     featured: true,
   },
