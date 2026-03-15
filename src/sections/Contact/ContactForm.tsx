@@ -29,7 +29,7 @@ export function ContactForm() {
 
   const onSubmit = async (data: FormData) => {
     // Replace with your Formspree endpoint or EmailJS call
-    const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    const response = await fetch('https://formspree.io/f/xojknoyr', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
