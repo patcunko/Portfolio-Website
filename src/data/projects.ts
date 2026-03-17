@@ -10,7 +10,7 @@ export const projects: Project[] = [
       'A fully responsive portfolio website showcasing my projects and experience. Built with modern tooling including Vite, React Router, and Framer Motion for animations.',
     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     liveUrl: 'https://patrikcunko.com',
-    githubUrl: 'https://github.com/yourusername/portfolio',
+    githubUrl: 'https://github.com/patcunko/portfolio-website',
     featured: true,
   },
   {
