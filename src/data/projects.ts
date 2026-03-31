@@ -14,6 +14,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: '3',
+    slug: 'pakd',
+    title: 'Pakd',
+    description: 'A travel planning app to help you organize and pack for your trips.',
+    longDescription:
+      'Pakd is a travel planning app built with React and Expo that helps you plan trips and manage packing lists so nothing gets left behind.',
+    techStack: ['React', 'Expo'],
+    liveUrl: 'https://pakd.space',
+    featured: true,
+  },
+  {
     id: '2',
     slug: 'ai-face-recognition',
     title: 'AI Face Recognition',
