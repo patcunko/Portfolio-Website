@@ -25,6 +25,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    id: '4',
+    slug: 'budgie',
+    title: 'Budgie',
+    description: 'An AI-powered budget tracking app to help you manage your finances.',
+    longDescription:
+      'Budgie is a mobile budget tracking app built with React and Expo that leverages AI to help you understand and manage your spending habits.',
+    techStack: ['React', 'Expo', 'AI'],
+    githubUrl: 'https://github.com/patcunko/budgie',
+    featured: true,
+  },
+  {
     id: '2',
     slug: 'ai-face-recognition',
     title: 'AI Face Recognition',
